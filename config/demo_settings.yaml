@@ -1,0 +1,5 @@
+# 演示配置
+enabled: true
+order: 1
+cases:
+  - 登录用例
