@@ -1,0 +1,101 @@
+urls:
+- name: 演示环境-01
+  url: https://demo01.example.com
+  username: demo
+  description: 第 1 套联调环境（演示数据）
+- name: 演示环境-02
+  url: https://demo02.example.com
+  username: demo
+  description: 第 2 套联调环境（演示数据）
+- name: 演示环境-03
+  url: https://demo03.example.com
+  username: demo
+  description: 第 3 套联调环境（演示数据）
+- name: 演示环境-04
+  url: https://demo04.example.com
+  username: demo
+  description: 第 4 套联调环境（演示数据）
+- name: 演示环境-05
+  url: https://demo05.example.com
+  username: demo
+  description: 第 5 套联调环境（演示数据）
+- name: 演示环境-06
+  url: https://demo06.example.com
+  username: demo
+  description: 第 6 套联调环境（演示数据）
+- name: 演示环境-07
+  url: https://demo07.example.com
+  username: demo
+  description: 第 7 套联调环境（演示数据）
+- name: 演示环境-08
+  url: https://demo08.example.com
+  username: demo
+  description: 第 8 套联调环境（演示数据）
+- name: 演示环境-09
+  url: https://demo09.example.com
+  username: demo
+  description: 第 9 套联调环境（演示数据）
+- name: 演示环境-10
+  url: https://demo10.example.com
+  username: demo
+  description: 第 10 套联调环境（演示数据）
+- name: 演示环境-11
+  url: https://demo11.example.com
+  username: demo
+  description: 第 11 套联调环境（演示数据）
+- name: 演示环境-12
+  url: https://demo12.example.com
+  username: demo
+  description: 第 12 套联调环境（演示数据）
+- name: 演示环境-13
+  url: https://demo13.example.com
+  username: demo
+  description: 第 13 套联调环境（演示数据）
+- name: 演示环境-14
+  url: https://demo14.example.com
+  username: demo
+  description: 第 14 套联调环境（演示数据）
+- name: 演示环境-15
+  url: https://demo15.example.com
+  username: demo
+  description: 第 15 套联调环境（演示数据）
+- name: 演示环境-16
+  url: https://demo16.example.com
+  username: demo
+  description: 第 16 套联调环境（演示数据）
+- name: 演示环境-17
+  url: https://demo17.example.com
+  username: demo
+  description: 第 17 套联调环境（演示数据）
+- name: 演示环境-18
+  url: https://demo18.example.com
+  username: demo
+  description: 第 18 套联调环境（演示数据）
+- name: 演示环境-19
+  url: https://demo19.example.com
+  username: demo
+  description: 第 19 套联调环境（演示数据）
+- name: 演示环境-20
+  url: https://demo20.example.com
+  username: demo
+  description: 第 20 套联调环境（演示数据）
+- name: 演示环境-21
+  url: https://demo21.example.com
+  username: demo
+  description: 第 21 套联调环境（演示数据）
+- name: 演示环境-22
+  url: https://demo22.example.com
+  username: demo
+  description: 第 22 套联调环境（演示数据）
+- name: 演示环境-23
+  url: https://demo23.example.com
+  username: demo
+  description: 第 23 套联调环境（演示数据）
+- name: 演示环境-24
+  url: https://demo24.example.com
+  username: demo
+  description: 第 24 套联调环境（演示数据）
+- name: 演示环境-25
+  url: https://demo25.example.com
+  username: demo
+  description: 第 25 套联调环境（演示数据）

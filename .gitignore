@@ -1,0 +1,42 @@
+# ========== 运行产物（本机产生，无版本意义）==========
+# ⚠️ 这份是**资产根仓**的模板：仓根 = 资产根自己（data/），层级在它下面一层，
+#    所以路径比产品仓那份（仓根 = data/<层级>/）**多一层 `*/`**。
+#    照抄产品仓那份会让规则**全部失配**，而失配不报错（只是运行产物悄悄进了仓）。
+#    `!` 必须**先放行目录再放行文件**：git 不进入被忽略的目录，漏掉中间那行
+#    `!*/*/report/**/` 会让例外**静默失效**（md 被 `*/*/report/**` 吃掉）。
+*/*/report/**
+!*/*/report/**/
+!*/*/report/**/*.md
+*/*/recordings/
+# keepalive / 执行期哨兵与暂存文件：名字固定，写在脚本根旁边，没有任何版本意义。
+**/.diag_done_signal
+**/.diagnose_done
+**/.pytest_result.*
+case_trees/
+allure_report/
+
+# ========== 可再生产物 ==========
+# <层级>/<套>/case/.versions/ 是「任务级可回滚点」的快照（case_versions.py 生成）。
+*/*/case/.versions/
+
+# ========== 本机库 / Python ==========
+*.db
+*.db-journal
+__pycache__/
+*.pyc
+
+# ========== 必须提交的（上述规则不覆盖它们）==========
+#   config/*                    ← 共享的**业务**配置（suite_config / url_config）
+#   <层级>/<套>/scripts/**       ← 套源码、PO 类、PRODUCT_RULES.md
+#   <层级>/<套>/case/**/*.md     ← 用例正文（C2：资产走 Git）
+#   <层级>/<套>/report/**/*.md   ← 执行总结 md（靠上面两行 `!` 放行）
+# ========== 缓存 / 系统文件 ==========
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
