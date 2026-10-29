@@ -9,3 +9,6 @@ class HomePage:
 
     def wait_ready(self):
         self.page.wait_for_load_state("networkidle")
+
+    def is_logged_in(self) -> bool:
+        return self.page.get_by_test_id("avatar").is_visible()
