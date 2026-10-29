@@ -12,3 +12,7 @@ class HomePage:
 
     def is_logged_in(self) -> bool:
         return self.page.get_by_test_id("avatar").is_visible()
+
+    def open_profile(self):
+        self.page.get_by_test_id("avatar").click()
+        self.page.get_by_role("menuitem", name="个人资料").click()
